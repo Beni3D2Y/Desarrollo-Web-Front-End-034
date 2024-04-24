@@ -1,12 +1,8 @@
-let name ="Benito";
-name = "Abraham";
-
-const lastname = "Estudillo";
-
-const condition = true;
-
-if(condition){
-    const lastname ="Hyper";
-    console.log(lastname);
+function obtenerInfo(name='Benito',apellido='Mtz'){
+   const info =`${name} ${apellido}`;
+   return info;
 }
-console.log("Hola mundo " + name + ' ' + lastname);
+
+const info = obtenerInfo('Abraham','Mtz');
+
+console.log(info);
